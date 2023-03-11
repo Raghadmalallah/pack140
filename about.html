@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Cub Scout Pack 140</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-colors-highway.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="navigation w3-highway-blue w3-container">
+      <nav class="nav-container w3-padding-large">
+        <div class="logo">
+          <a href="#home"
+            ><img
+              src="./assets/images/cub-scouts-logo-vector-01.png"
+              width="30"
+              height="30"
+              alt=""
+            />Cub<span>Scout</span></a
+          >
+        </div>
+        <div class="mobile-button">
+          <span style="float: right" onclick="toggleMobileNavigation()"
+            >&#9776;</span
+          >
+        </div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#services">Cubs</a>
+          <a href="#careers">Events</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+          <div class="mobile-logo" style="display: inline">
+            <a href="#home" class="logo">Cub<span>Scout</span></a>
+            <span style="width: 100%"></span>
+            <a
+              href="javascript:void(0)"
+              class="closebtn"
+              onclick="toggleMobileNavigation()"
+              >&times;</a
+            >
+          </div>
+          <a href="#about" onclick="toggleMobileNavigation()">About Us</a>
+          <a href="#services" onclick="toggleMobileNavigation()">Cubs</a>
+          <a href="#careers" onclick="toggleMobileNavigation()">Events</a>
+          <a href="#contact" onclick="toggleMobileNavigation()">Contact</a>
+        </div>
+      </nav>
+    </div>
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <div class="w3-row w3-center">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <img
+            src="./assets/images/scoutoath-03.png"
+            class="w3-round w3-image"
+            alt="Raghad Malallah"
+            width="500"
+            height="333"
+          />
+        </div>
+
+        <div class="w3-col m6 w3-padding-16">
+          <h1>LIVING THE IDEALS</h1>
+          <p>
+            Cub Scouting’s values are embedded in the Scout Oath, the Scout Law,
+            the Cub Scout motto, and the Cub Scout sign, handshake, and salute.
+            These practices help establish and reinforce the program’s values in
+            Scouts and the leaders who guide them.
+          </p>
+          <h1>BELONGING TO A DEN</h1>
+          <p>
+            The den—a group of six to eight children who are in the same grade
+            and are the same gender—is the place where Cub Scouting starts. In
+            the den, Cub Scouts develop new skills and interests, they practice
+            sportsmanship and good citizenship, and they learn to do their best,
+            not just for themselves but for the den as well.
+          </p>
+          <h1>ADVANCEMENT</h1>
+          <p>
+            Recognition is important to everyone. The advancement plan provides
+            fun for the Scouts, gives them a sense of personal achievement as
+            they earn badges, and strengthens family understanding as adult
+            family members and their den leader work with them on advancement
+            projects.
+          </p>
+          <h1>FAMILY INVOLVEMENT</h1>
+          <p>
+            Whether a Cub Scout lives with two parents or one, a foster family,
+            or other relatives, their family is an important part of Cub
+            Scouting. Parents and adult family members provide leadership and
+            support for Cub Scouting and help ensure that Scouts have a good
+            experience in the program.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-small" id="about">
+      <div class="w3-row w3-center">
+        <div class="w3-col m6 w3-right w3-padding-large">
+          <img
+            src="./assets/images/scoutlaw-04.png"
+            class="w3-round w3-image"
+            alt="Raghad Malallah"
+            width="500"
+            height="333"
+          />
+        </div>
+
+        <div class="w3-col m6 w3-padding-32 w3-left">
+          <h1>ACTIVITIES</h1>
+          <p>
+            Cub Scouts participate in a huge array of activities, including
+            games, projects, skits, stunts, songs, outdoor activities, trips,
+            and service projects. Besides being fun, these activities offer
+            opportunities for growth, achievement, and family involvement.
+          </p>
+          <h1>SERVING THE NEIGHBORHOOD</h1>
+          <p>
+            Cub Scouting focuses on the home and neighborhood. It helps Scouts
+            strengthen connections to their local communities, which in turn
+            supports their growth and development.
+          </p>
+          <h1>UNIFORM</h1>
+          <p>
+            Cub Scout uniforms serve a dual purpose, demonstrating that a Scout
+            is part of a team and showing individual achievement (Scouts wear
+            the badges they’ve earned). Wearing the uniform to meetings and
+            activities also encourages a neat appearance, and good behavior.
+          </p>
+          <div class="w3-container w3-padding-48">
+            <a href="index.html" class="w3-button w3-round-large w3-yellow w3-hover-blue w3-xlarge">Back</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleMobileNavigation() {
+        const mobileNavigation = document.getElementById("mobile-sidenav");
+        mobileNavigation.classList.toggle("mobile-links-active");
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
