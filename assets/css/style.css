@@ -435,16 +435,7 @@
       width: 40%;
     }
   
-    .hero .text .pre-title {
-      font-size: var(--font-x-large);
-    }
-    .hero .text .title {
-      font-size: var(--font-2x-large);
-    }
-    .hero .text .post-title {
-      font-size: x-large;
-    }
-  
+      
     .about .text-one {
       width: 70%;
     }
@@ -471,10 +462,7 @@
       font-size: var(--font-medium);
     }
   
-    .careers .cards .card {
-      height: auto;
-    }
-  }
+      }
   
   @media screen and (max-width: 768px) {
     .mobile-links-active {
@@ -566,24 +554,7 @@
       width: 90% !important;
     }
   
-    .hero {
-      height: 400px;
-      width: 100%;
-    }
-  
-    .hero .text .pre-title {
-      font-size: var(--font-large);
-    }
-    .hero .text .title,
-    .contact h2,
-    .services h2,
-    .careers h2 {
-      font-size: var(--font-x-large);
-    }
-    .hero .text .post-title {
-      font-size: large;
-    }
-  
+      
     .mobile-links-active {
       width: 100%;
     }
