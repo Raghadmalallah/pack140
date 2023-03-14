@@ -53,11 +53,15 @@
     font-family: "Quicksand", sans-serif;
   }
   
+
   .container {
     width: 60%;
     margin: 0 auto;
   }
   
+  /*slideshow*/
+  .mySlides {display:none;}
+
   /*Navigation*/
   
   .navigation {
@@ -135,6 +139,7 @@
   
   .mobile-button {
     display: none;
+    cursor: pointer;
   }
   
   .mobile-logo {

@@ -1,185 +1,467 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
     <title>Cub Scout Pack 140</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-colors-highway.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-
-      <div class="navigation w3-highway-blue w3-container">
-        <nav class="nav-container w3-padding-large">
-          <div class="logo">
-            <a href="#home" ><img src="./assets/images/cub-scouts-logo-vector-01.png" width="30" height="30" alt="" >Cub<span>Scout</span></a>
-          </div>
-          <div class="mobile-button">
-            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
-          </div>
-          <div class="links">
-            <a href="#about" >About</a>
-            <a href="#about" >Pack 140</a>
-            <a href="#cubs" >Cubs</a>
-            <a href="#gallery" >Gallery</a>
-            <a href="#contact" >Contact</a>            
-          </div>
-          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
-            <div class="mobile-logo" style="display: inline;">
-              <a href="#home" class="logo">Cub<span>Scout</span></a>
-              <span style="width: 100%;"></span>
-              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
-            </div>
-            <a href="#about" onclick="toggleMobileNavigation()">About Us</a>
-            <a href="#about" onclick="toggleMobileNavigation()">Pack 140</a>
-            <a href="#cubs" onclick="toggleMobileNavigation()">Cubs</a>
-            <a href="#gallery" onclick="toggleMobileNavigation()">Gallery</a>
-            <a href="#contact" onclick="toggleMobileNavigation()">Contact</a>
-          </div>
-        </nav>
-      </div>
-
-      <div>
-        <img src="./assets/images/banner-02.jpg" class="w3-image" alt="Welcome Adventure pack14">
-      </div>
-
-      <div class="about container w3-padding-large" id="about">
-        <div class="text-one">
-          <h2>About Us</h2>
-          <p>We’re all about encouraging boys and girls to make friends, be helpful to others, and do their very best no matter the outcome.
-            With the help of powerful learning projects and exciting outdoor activities,
-            we aim to teach children that doing their best can be a fun and rewarding experience—no matter the difficulty of the challenge.
-            To learn more about the aims and benefits of Cub Scouting, follow the links below!</p>
-          <a class="w3-button w3-round-large w3-yellow w3-hover-blue w3-large" href="about.html">Read more</a> 
+    <div class="navigation w3-highway-blue w3-container">
+      <nav class="nav-container w3-padding-large">
+        <div class="logo">
+          <a href="#home"
+            ><img
+              src="./assets/images/cub-scouts-logo-vector-01.png"
+              width="30"
+              height="30"
+              alt=""
+            />Cub<span>Scout</span></a
+          >
         </div>
-        <div class="text-one">
-          <h2>Our Pack 140</h2>
-          <p>Pack 140 is a very organized and well run Pack that loves to have lots of fun.
-            Our Pack programs numerous events to give our families every opportunity to balance participation in Scouts with other interests such as sports, clubs, or other pursuits that lead to busy schedules.
-            Our size affords us the ability to ensure that there are always a good number of Scouts that attend these events so everyone can enjoy the activities we provide.
+        <div class="mobile-button">
+          <span style="float: right" onclick="toggleMobileNavigation()"
+            >&#9776;</span
+          >
+        </div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#about">Pack 140</a>
+          <a href="#cubs">Cubs</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+          <div class="mobile-logo" style="display: inline">
+            <a href="#home" class="logo">Cub<span>Scout</span></a>
+            <span style="width: 100%"></span>
+            <a
+              href="javascript:void(0)"
+              class="closebtn"
+              onclick="toggleMobileNavigation()"
+              >&times;</a
+            >
+          </div>
+          <a href="#about" onclick="toggleMobileNavigation()">About Us</a>
+          <a href="#about" onclick="toggleMobileNavigation()">Pack 140</a>
+          <a href="#cubs" onclick="toggleMobileNavigation()">Cubs</a>
+          <a href="#gallery" onclick="toggleMobileNavigation()">Gallery</a>
+          <a href="#contact" onclick="toggleMobileNavigation()">Contact</a>
+        </div>
+      </nav>
+    </div>
+
+    <div>
+      <img
+        src="./assets/images/banner-02.jpg"
+        class="w3-image"
+        alt="Welcome Adventure pack14"
+      />
+    </div>
+
+    <div class="about container w3-padding-large" id="about">
+      <div class="text-one">
+        <h2>About Us</h2>
+        <p>
+          We’re all about encouraging boys and girls to make friends, be helpful
+          to others, and do their very best no matter the outcome. With the help
+          of powerful learning projects and exciting outdoor activities, we aim
+          to teach children that doing their best can be a fun and rewarding
+          experience—no matter the difficulty of the challenge. To learn more
+          about the aims and benefits of Cub Scouting, follow the links below!
+        </p>
+        <a
+          class="w3-button w3-round-large w3-yellow w3-hover-blue w3-large"
+          href="about.html"
+          >Read more</a
+        >
+      </div>
+      <div class="text-one">
+        <h2>Our Pack 140</h2>
+        <p>
+          Pack 140 is a very organized and well run Pack that loves to have lots
+          of fun. Our Pack programs numerous events to give our families every
+          opportunity to balance participation in Scouts with other interests
+          such as sports, clubs, or other pursuits that lead to busy schedules.
+          Our size affords us the ability to ensure that there are always a good
+          number of Scouts that attend these events so everyone can enjoy the
+          activities we provide.
+        </p>
+        <a
+          class="w3-button w3-round-large w3-yellow w3-hover-blue w3-large"
+          href="pack.html"
+          >Read more</a
+        >
+      </div>
+    </div>
+
+    <div>
+      <img
+        src="./assets/images/cubslogo-06.jpg"
+        class="w3-image"
+        alt="Welcome Adventure pack14"
+      />
+    </div>
+
+    <div class="services container" id="cubs">
+      <h2 class="w3-center">Our CUBS</h2>
+      <div class="cards w3-padding-large w3-margin-top">
+        <div
+          class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large"
+        >
+          <h3>Kindergarten - Lion</h3>
+          <div class="card-text">
+            <img
+              src="./assets/images/lion.png"
+              class="w3-image"
+              style="width: 100px; height: 100px"
+              alt="Lion Cub"
+            />
+            <p>
+              Kindergartners work toward the Lion rank. The Lion rank is earned
+              by completing five adventures. Although participation with an
+              adult partner is required for all Lion awards, recognition items
+              are for the Scouts only.
             </p>
-          <a class="w3-button w3-round-large w3-yellow w3-hover-blue w3-large" href="pack.html">Read more</a> 
-        </div>
-      </div>
-
-      <div>
-        <img src="./assets/images/cubslogo-06.jpg" class="w3-image" alt="Welcome Adventure pack14">
-      </div>
-
-      <div class="services container" id="cubs">
-        <h2 class="w3-center">Our CUBS</h2>
-        <div class="cards w3-padding-large w3-margin-top">
-          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>Kindergarten - Lion</h3>
-            <div class="card-text">
-              <img src="./assets/images/lion.png" class="w3-image" style="width: 100px; height: 100px;" alt="Lion Cub">
-              <p>Kindergartners work toward the Lion rank. The Lion rank is earned by completing five adventures.
-                Although participation with an adult partner is required for all Lion awards, recognition items are for the Scouts only. </p>
-            </div>
-          </div>
-          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>First Grade - Tiger</h3>
-            <div class="card-text">
-              <img src="./assets/images/tiger.png" class="w3-image" style="width: 100px; height: 100px;" alt="Tiger Cub">
-              <p>First graders work toward the Tiger rank. The Tiger rank is earned by completing four requirements.
-                Although participation with an adult partner is required for all Tiger awards, recognition items are for the Scouts only. </p>
-            </div>
-          </div>
-          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>Second Grade - Wolf</h3>
-            <div class="card-text">
-              <img src="./assets/images/wolf.png" class="w3-image" style="width: 100px; height: 100px;" alt="Wolf Cub">
-              <p>Second graders work toward the Wolf rank. The Wolf rank is earned by completing the four requirements. </p>
-            </div>
-          </div>
-          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>Third Grade - Bear</h3>
-            <div class="card-text">
-              <img src="./assets/images/bear.png" class="w3-image" style="width: 100px; height: 100px;" alt="Bear Cub">
-              <p>Third graders work toward the Bear rank. The Bear rank is earned by completing the four requirements. </p>
-            </div>
-          </div>
-          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>Fourth Grade - Webelos</h3>
-            <div class="card-text">
-              <img src="./assets/images/webelos.png" class="w3-image" style="width: 100px; height: 100px;" alt="Webelos Cub">
-              <p>Fourth graders work toward the Webelos rank. The Webelos rank is earned by completing the five requirements.
-                Scouts who are in Cub Scouts in fourth grade must complete the Webelos rank before working towards the Arrow of Light. </p>
-            </div>
-          </div>
-          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
-            <h3>Fifth Grade - Arrow of Light</h3>
-             <div class="card-text">
-              <img src="./assets/images/ArrowofLight.png" class="w3-image" style="width: 150px; height: 70px;" alt="Arrow of Light">
-              <p>Fifth graders work toward the Arrow of Light rank.  If a fourth-grade Cub Scout has completed the Webelos rank, they may begin work on the Arrow of Light.
-                The Arrow of Light rank is earned by completing the five requirements. </p>
-            </div>
           </div>
         </div>
-      </div>
-      <div class="w3-center w3-padding-large">
-        <h1>More Info Watch the video</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-wUZ_yeY9qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-
-      <div>
-        <img src="./assets/images/banner-02.jpg" class="w3-image" alt="Welcome Adventure pack14" id="gallery">
-      </div>
-
-
-
-      <div class="contact container" id="contact">
-        <div class="short-contact">
-          <h2>Contact us</h2>
-          <p class="w3-xlarge">We would like to hear from you!</p>
-          <div class="w3-large w3-margin-top contact-info">
-            <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://www.google.com/maps/place/London,+UK/@51.5287352,-0.3817852,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862" target="_blank">23th Street, London, England</a></span><br>
-            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="connect@factor.com">connect@factor.com</a></span><br>
-            <i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="+44 0197532486">+44 0197532486</a></span><br>
-          </div>
-          <div class="w3-large w3-margin-top contact-info">
-            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- LinkedIn</a></span><br>
-            <i class="fa fa-facebook"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;"> - Facebook</a></span><br>
-            <i class="fa fa-twitter"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
+        <div
+          class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large"
+        >
+          <h3>First Grade - Tiger</h3>
+          <div class="card-text">
+            <img
+              src="./assets/images/tiger.png"
+              class="w3-image"
+              style="width: 100px; height: 100px"
+              alt="Tiger Cub"
+            />
+            <p>
+              First graders work toward the Tiger rank. The Tiger rank is earned
+              by completing four requirements. Although participation with an
+              adult partner is required for all Tiger awards, recognition items
+              are for the Scouts only.
+            </p>
           </div>
         </div>
-        <div class="form w3-margin-top">
-          <div class="container w3-round-xlarge">
-            <form class="w3-highway-blue w3-padding-large w3-round-large">
-              <label for="fname">First Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name">
-
-              <label for="lname">Last Name</label>
-              <input type="text" id="email" name="email" placeholder="Your email">
-
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-              <p>By submiting this form, you agree to our <a href="privacy-policy.html" target="_blank">privacy policy</a></p><br>
-              <input class="w3-metro-blue" type="submit" value="Submit">
-            </form>
+        <div
+          class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large"
+        >
+          <h3>Second Grade - Wolf</h3>
+          <div class="card-text">
+            <img
+              src="./assets/images/wolf.png"
+              class="w3-image"
+              style="width: 100px; height: 100px"
+              alt="Wolf Cub"
+            />
+            <p>
+              Second graders work toward the Wolf rank. The Wolf rank is earned
+              by completing the four requirements.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large"
+        >
+          <h3>Third Grade - Bear</h3>
+          <div class="card-text">
+            <img
+              src="./assets/images/bear.png"
+              class="w3-image"
+              style="width: 100px; height: 100px"
+              alt="Bear Cub"
+            />
+            <p>
+              Third graders work toward the Bear rank. The Bear rank is earned
+              by completing the four requirements.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large"
+        >
+          <h3>Fourth Grade - Webelos</h3>
+          <div class="card-text">
+            <img
+              src="./assets/images/webelos.png"
+              class="w3-image"
+              style="width: 100px; height: 100px"
+              alt="Webelos Cub"
+            />
+            <p>
+              Fourth graders work toward the Webelos rank. The Webelos rank is
+              earned by completing the five requirements. Scouts who are in Cub
+              Scouts in fourth grade must complete the Webelos rank before
+              working towards the Arrow of Light.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large"
+        >
+          <h3>Fifth Grade - Arrow of Light</h3>
+          <div class="card-text">
+            <img
+              src="./assets/images/ArrowofLight.png"
+              class="w3-image"
+              style="width: 150px; height: 70px"
+              alt="Arrow of Light"
+            />
+            <p>
+              Fifth graders work toward the Arrow of Light rank. If a
+              fourth-grade Cub Scout has completed the Webelos rank, they may
+              begin work on the Arrow of Light. The Arrow of Light rank is
+              earned by completing the five requirements.
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    <div class="w3-center w3-padding-large">
+      <h1>More Info Watch the video</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-wUZ_yeY9qc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+<hr class="w3-highway-blue">
+<hr class="w3-highway-blue">
+<hr class="w3-highway-blue">
 
-      <div class=" w3-highway-blue w3-padding-large" id="footer">
-        <p class="w3-center logo">© 2021 - CONNECT<span>FACTOR</span> - All rights reserved</p>
+    <div class="w3-padding-large">
+      <img
+        src="./assets/images/scoutmotto-07.jpg"
+        class="w3-image"
+        alt="Welcome Adventure pack14"
+        id="gallery"
+      />
+    </div>
+
+    <div class="w3-container w3-center w3-padding-large" id="#gallery">
+      <h2>Our Gallery</h2>
+      <p>
+        In den meetings and pack meetings, Cub Scouts make new friends, play purposeful games, and learn new things.
+        Dens usually meet one-two times a month. All the dens in the pack come together once a month for a pack meeting.<br>
+        Cub Scout families have opportunities to go camping and to participate in outdoor adventures.
+        Lessons learned in the out-of- doors help to develop a life-long respect for the environment.<br>
+        Packs can put together special events and activities such as banquets, races, and community service projects.<br>
+        Look here how much fun we have; your kids and all your family are always welcome to join us during the Pack meetings/ Den meetings.<br>meanwhile here are some pictures from our previous activities.
+      </p>
+    </div>
+
+    <div class="w3-content w3-section w3-border w3-border-blue" style="max-width:500px">
+      <img class="mySlides" src="./assets/slideshow/scout(1).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(1).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(2).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(2).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(3).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(3).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(4).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(4).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(5).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(5).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(6).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(6).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(7).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(8).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(8).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(9).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(9).JPG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(10).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(11).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(12).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(13).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(14).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(15).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(16).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(17).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(18).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(19).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(20).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(21).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(22).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(23).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(24).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(25).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(26).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(27).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(28).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(29).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(30).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(31).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(32).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(33).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(34).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(35).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(36).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(37).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(38).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(39).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(40).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(41).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(42).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(43).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(44).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(45).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(46).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(47).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(48).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(49).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(50).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(51).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(50).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(51).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(52).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(53).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(54).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(55).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(56).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(58).JPEG" style="width:100%">
+      <img class="mySlides" src="./assets/slideshow/scout(59).JPEG" style="width:100%">
+      
+    </div>
+
+
+    <div class="w3-panel w3-highway-blue numbers">
+    </div>
+
+    <div class="contact container" id="contact">
+      <div class="short-contact">
+        <h2>Contact us</h2>
+        <p class="w3-xlarge">We would like to hear from you!</p>
+        <div class="w3-esponsive w3-margin-top contact-info w3-padding-16">
+          <i class="fa fa-location-arrow"></i
+          ><span style="margin-left: 10px">
+            <a href="https://goo.gl/maps/WTnXFTpUNAkdCLWq6" target="_blank"
+              >St. Mary Catholic Church<br />
+              10 N Buffalo Grove Rd,<br />Buffalo Grove, IL 60089</a
+            ></span
+          ><br />
+
+          <i class="fa fa-envelope-o w3-padding-16"></i
+          ><span style="margin-left: 10px">
+            <a href="cubscoutpack140bg@gmail.com"
+              >cubscoutpack140bg@gmail.com</a
+            ></span
+          ><br />
+          <i class="fa fa-facebook-square fa-lg w3-padding-16"></i
+            ><span style="margin-left: 10px"
+              ><a href="https://www.facebook.com/profile.php?id=100089539800410&sk=grid" target="_blank" style="text-decoration: none">
+                Facebook</a
+              ></span>
+        </div>
+
+       
       </div>
+      <div class="form w3-margin-top">
+        <div class="container w3-round-xlarge">
+          <form class="w3-highway-blue w3-padding-large w3-round-large" >
+            <label for="fname">First Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
 
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your email"
+            />
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+            <br />
+            <input class="w3-metro-blue" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+<!--w3-highway-blue-->
+<footer
+class="w3-center w3-highway-blue w3-padding-64 w3-hover-opacity-off"
+>
+<a href="#home" class="w3-button w3-light-grey"
+  ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a
+>
+<div class="w3-xlarge w3-section">
+ 
+ 
+</div>
+<p class="w3-small">
+  Copyright &copy;
   <script>
-    function toggleMobileNavigation() {
+    document.write(new Date().getFullYear());
+  </script>
+  All rights reserved Cub Scout 140 - Buffalo Grove, Illinois<br />
+</p>
+<p class="w3-small w3-text-white">
+  Develope and Design By OD Designers<br />
+  <a href="http://www.oddesigners.com/" target="_blank" style="color: yellow;">www.oddesigners.com</a>
+</p>
+
+<!-- Footer end. -->
+</footer>
+
+    <script>
+     var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+function toggleMobileNavigation() {
       const mobileNavigation = document.getElementById("mobile-sidenav");
-      mobileNavigation.classList.toggle('mobile-links-active');
+      mobileNavigation.classList.toggle('mobile-links-.ve');
     }
-</script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
