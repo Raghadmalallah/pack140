@@ -383,10 +383,19 @@
       <div class="form w3-margin-top">
         <div class="container w3-round-xlarge">
           <form class="w3-highway-blue w3-padding-large w3-round-large" action="https://formsubmit.co/raghadmalallah@gmail.com" method="POST">
-            <label for="fname">First Name</label>
+            <!--Honeypot-->
+            <input type="text" name="_honey" style="display: none;">
+            <!--Disable captcha-->
+            <input type="hidden" name="_captcha" value="false">
+            <!-- success message link-->
+            <input type="hidden" name="_next" value="https://raghadmalallah.github.io/pack140/success.html">
+
+
+            <label for="fname">Name</label>
+          
             <input type="text" id="name" name="name" placeholder="Your name" />
 
-            <label for="lname">Last Name</label>
+            <label for="lname">Email</label>
             <input
               type="text"
               id="email"
