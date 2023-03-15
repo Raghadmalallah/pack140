@@ -179,16 +179,6 @@
     margin-right: 25px;
   }
   
-  /*Hero*/
-  
-  .hero {
-    /* display: flex; */
-    min-height: 300px;
-    
-    background-attachment: scroll;
-    
-  }
- 
   
   /*About*/
   
@@ -228,10 +218,19 @@
   /*Numbers*/
   
   .numbers {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  
+  .divanim{
+    position: relative;
+  animation: mymove 20s infinite alternate;
+  }
+  #div3 {animation-timing-function: linear;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left:75%;}
+}
   .numbers .container {
     display: flex;
     justify-content: space-evenly;
@@ -239,21 +238,7 @@
     gap: 20px;
   }
   
-  .numbers .container .text {
-    text-align: center;
-    color: var(--nav-link-color);
-    font-size: var(--font-large);
-  }
-  
-  .numbers h2 {
-    font-size: var(--font-3x-large);
-    color: var(--nav-link-color);
-  }
-  
-  .numbers .container .text .number {
-    font-size: var(--font-3x-large);
-  }
-  
+   
   /*Services*/
   .services {
     padding-top: 50px;
