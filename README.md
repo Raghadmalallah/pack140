@@ -5,7 +5,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [License](#license)
-- [Link to the site](#Link to the site)
+
 ## Description  
 Designed and Developed the full site for the Cub Scouts, Starting with gathering material, handling the designs for the banner and pictures, and writing necessary codes for the site.
 ## Installation
